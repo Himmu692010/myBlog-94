@@ -1,0 +1,44 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+  background:linear-gradient(to right, #be06f1 7%,#2ec6c6 98%);
+}
+#myDiv{
+    height: 270px;
+    width: 700px;
+    border-radius: 20px;
+    border-color: rgb(0, 255, 110);
+    background: linear-gradient(rgb(219, 159, 99) 3%,rgb(217, 155, 30));
+    align-items: center;
+    box-sizing: border-box;
+    border-style: ridge;
+}
+#user_name{
+    color: rgb(37, 39, 39);
+    border: #43bcd2 solid;
+    border-radius: 20px;
+    background-color: rgb(235, 230, 225);
+    width: 250px;
+    
+}
+input:hover{
+    border: 5px solid rgb(47, 56, 230);
+    width: 300px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(122, 122, 235), 0 0 5px darkblue;
+    transition-duration: 5s;
+    background-color: #2ec6c6;
+}
+.login_button{
+    height: 20px;
+    width: 40px;
+    color: lightcyan;
+    border-radius: 15px;
+    background-color: green;
+}
+
+button:hover{
+    box-shadow: #43bcd2,0 0 25px,0 0 5px darkblue;
+    cursor: pointer;
+}

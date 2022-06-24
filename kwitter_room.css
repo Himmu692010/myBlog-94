@@ -1,0 +1,7 @@
+body{
+    background:linear-gradient(to right, #be06f1 7%,#2ec6c6 98%);
+}
+#room_name:hover{
+    transform: scale(1.1);
+    background-color: #2ec6c6;
+}
